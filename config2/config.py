@@ -11,7 +11,6 @@ import sys
 import os
 import logging
 import inspect
-import mybad
 
 from os import environ as env
 from os import path, listdir
@@ -85,7 +84,7 @@ DISABLED = 1000 # NOTE: no easy way of disable Python standard logger instance w
 #       Errors
 # --------------------------------------
 
-class ConfigError(mybad.Error):
+class ConfigError(Exception):
     pass
 
 
