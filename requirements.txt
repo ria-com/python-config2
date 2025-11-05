@@ -1,4 +1,3 @@
-setupextras >= 0.1.5
 rootpath >= 0.1.1
 attributedict >= 0.3.0
 inspecta >= 0.1.3
